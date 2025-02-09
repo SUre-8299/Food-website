@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>food-website</title>
+
+    <!-- ----linked font awesome cdn---- -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- ----linked style.css file---- -->
+    <link rel="stylesheet" href="./public/css/style.css" />
+
+    <!-- ----linked media.css file---- -->
+    <link rel="stylesheet" href="./public/css/media.css" />
+  </head>
+  <body>
+    <!-- ====markup header element==== -->
+    <header class="header">
+      <!-- ---header logo--- -->
+      <div class="header-logo">
+        <img src="./images/logo-img.png" alt="logo" />
+      </div>
+
+      <!-- ---navigation--- -->
+      <nav class="navbar">
+        <ul>
+          <li>
+            <a class="active" href="#home">home</a>
+          </li>
+          <li>
+            <a href="#about">about</a>
+          </li>
+          <li>
+            <a href="#menu">menu</a>
+          </li>
+          <li>
+            <a href="#popular">popular</a>
+          </li>
+          <li>
+            <a href="#gallery">gallery</a>
+          </li>
+          <li>
+            <a href="#order">order</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- ---menu bar--- -->
+      <div id="menu-bar" class="fas fa-bars"></div>
+    </header>
+
+    <!-- ====markup main element==== -->
+
+    <main>
+      <!-- ====markup home section==== -->
+      <section id="home" class="home">
+        <div class="home-desc">
+          <h1>we belive good food offer great smile</h1>
+          <p>"Delicious food has the power to create joy. We take pride in serving meals that not only satisfy your hunger but also bring happiness with every bite. Using the finest ingredients and a passion for culinary excellence, we ensure every dish is crafted to perfection."
+
+            Let me know if you want a different tone or style!</p>
+          <input type="button" value="get started" />
+        </div>
+
+        <div class="home-image">
+          <img src="./images/home-img.png" alt="Net Error" />
+        </div>
+      </section>
+
+      <!-- ====markup about section==== -->
+      <section id="about" class="about">
+        <div class="about-image">
+          <img src="./images/about-frame-img.png" alt="" />
+        </div>
+
+        <div class="about-desc">
+          <h2>a world about us</h2>
+          <p>
+            "At our restaurant, we believe that food is more than just a meal—it’s an experience. Crafted with passion and the finest ingredients,
+             our dishes bring together flavors that delight the senses and create unforgettable memories."
+          </p>
+          <p>
+            "From our kitchen to your table, we are dedicated to serving high-quality, delicious food that satisfies every craving. Whether it's a casual bite or a special celebration,
+             we ensure every meal is made with love and care."
+          </p>
+
+          <input type="button" value="learn more" />
+        </div>
+      </section>
+
+      <!-- ====markup about section==== -->
+      <section id="menu" class="menu">
+        <h2>our delicious <span>menu</span></h2>
+        <div class="catagory">
+          <input type="button" value="breakfast" />
+          <input type="button" class="active" value="lunch" />
+          <input type="button" value="dinner" />
+          <input type="button" value="desert" />
+        </div>
+
+        <div class="catagory-img">
+          <img id="c-img" src="./images/menu-lunch.jpg" alt="Net Error" />
+        </div>
+
+        <!-- ---info content 01--- -->
+        <div class="menu-content">
+          <div class="info">
+            <h3><span>01.</span>we serve best food in the country</h3>
+            <p>
+              "Savor the finest flavors with our expertly crafted dishes made from the freshest ingredients. Our chefs bring passion
+               and creativity to every plate, ensuring an unforgettable dining experience."
+            </p>
+          </div>
+
+          <!-- ---info content 02--- -->
+          <div class="info">
+            <h3><span>02.</span>we serve best food in the country</h3>
+            <p>
+              "We take pride in sourcing only the best ingredients to deliver authentic and delicious flavors. Every dish is a masterpiece, 
+              reflecting our commitment to quality and excellence."
+            </p>
+          </div>
+
+          <!-- ---info content 03--- -->
+          <div class="info">
+            <h3><span>03.</span>we serve best food in the country</h3>
+            <p>
+              "Whether it's a family gathering, a romantic dinner, or a quick bite, we offer a warm and welcoming ambiance.
+               Great food, great service, and a great experience await you!"
+            </p>
+          </div>
+
+          <!-- ---info content 04--- -->
+          <div class="info">
+            <h3><span>04.</span>we serve best food in the country</h3>
+            <p>
+              "We believe in serving happiness on a plate. Our dedicated team ensures top-notch service, making 
+              sure you leave with a smile and a satisfied appetite."
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====markup popular section==== -->
+      <section id="popular" class="popular">
+        <h2>most <span>popular</span> foods</h2>
+
+        <div class="popular-content">
+          <!-- ---card 01--- -->
+          <div class="p-card">
+            <img src="./images/product-1.jpg" alt="Net Error" />
+            <h4>delecious food</h4>
+            <div class="review">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="price">Rs 150.00</p>
+            <input type="button" value="add to cart" />
+          </div>
+
+          <!-- ---card 02--- -->
+          <div class="p-card">
+            <img src="./images/product-2.jpg" alt="Net Error" />
+            <h4>delecious food</h4>
+            <div class="review">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="price">Rs 130.00</p>
+            <input type="button" value="add to cart" />
+          </div>
+
+          <!-- ---card 03--- -->
+          <div class="p-card">
+            <img src="./images/product-3.jpg" alt="Net Error" />
+            <h4>delecious food</h4>
+            <div class="review">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="price">Rs 220.00</p>
+            <input type="button" value="add to cart" />
+          </div>
+
+          <!-- ---card 04--- -->
+          <div class="p-card">
+            <img src="./images/product-4.jpg" alt="Net Error" />
+            <h4>delecious food</h4>
+            <div class="review">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="price">Rs 80.00</p>
+            <input type="button" value="add to cart" />
+          </div>
+        </div>
+      </section>
+
+      <!-- ====markup gallery section==== -->
+      <section id="gallery" class="gallery">
+        <h2>our food <span>gallery</span></h2>
+
+        <div class="gallery-content">
+          <!-- ---gallery card 01--- -->
+          <div class="g-card">
+            <img src="./images/img1.jpg" alt="Net Error" />
+            <h3>delicious food</h3>
+          </div>
+
+          <!-- ---gallery card 02--- -->
+          <div class="g-card">
+            <img src="./images/img2.jpg" alt="Net Error" />
+            <h3>delicious food</h3>
+          </div>
+
+          <!-- ---gallery card 03--- -->
+          <div class="g-card">
+            <img src="./images/img3.jpg" alt="Net Error" />
+            <h3>delicious food</h3>
+          </div>
+
+          <!-- ---gallery card 04--- -->
+          <div class="g-card">
+            <img src="./images/img4.jpg" alt="Net Error" />
+            <h3>delicious food</h3>
+          </div>
+
+          <!-- ---gallery card 05--- -->
+          <div class="g-card">
+            <img src="./images/img5.jpg" alt="Net Error" />
+            <h3>delicious food</h3>
+          </div>
+
+          <!-- ---gallery card 06--- -->
+          <div class="g-card">
+            <img src="./images/img6.jpg" alt="Net Error" />
+            <h3>delicious food</h3>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====markup gallery section==== -->
+      <section id="order" class="order">
+        <h2>make an <span>order</span></h2>
+    
+        <div class="order-content">
+            <form id="order-form" class="order-form" autocomplete="off">
+                <input type="text" id="name" placeholder="name" required />
+                <input type="email" id="email" placeholder="email" required />
+                <input type="password" id="password" placeholder="password" required />
+                <input type="number" id="phone" placeholder="phone Number" required />
+                <textarea id="address" cols="30" rows="8" placeholder="address"></textarea>
+    
+                <button type="submit">Order now</button>
+                <div id="thank-you-message" style="display: none;">
+                  <h3>Thank you for your order!</h3>
+              </div>
+            </form>
+            <img src="./images/form-img.jpg" alt="Net Error" />
+        </div>
+    </section>    
+    </main>
+
+    <!-- ====markup footer element==== -->
+    <footer class="footer">
+      <div class="contact-info">
+        <h4>contact info</h4>
+        <p>
+          <i class="fas fa-location-dot"></i
+          ><span>India.</span>
+        </p>
+        <p><i class="fas fa-envelope"></i> <span>surendrayadav7668@gmail.com</span></p>
+        <p><i class="fas fa-phone"></i> <span>+918299500552</span></p>
+        <p><i class="fas fa-phone"></i> <span>+918299500552</span></p>
+      </div>
+
+      <div class="location">
+        <h4>branch location</h4>
+        <ul>
+          <li><a href="#">place 1</a></li>
+          <li><a href="#">place 2</a></li>
+          <li><a href="#">place 3</a></li>
+          <li><a href="#">place 4</a></li>
+        </ul>
+      </div>
+
+      <div class="quick-links">
+        <h4>quick links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#popular">Popular</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#order">Order</a></li>
+        </ul>
+      </div>
+
+      <div class="follow-us">
+        <h4>follow us</h4>
+        <ul>
+          <li>
+            <a href="https://www.facebook.com" target="blank">facebook</a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com" target="blank">instagram</a>
+          </li>
+          <li><a href="https://www.twitter.com" target="blank">twitter</a></li>
+          <li>
+            <a href="https://www.linkedin.com" target="blank">linkedin</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="copyright">
+        <p>Copyright 2024 || &copy all right reserved.</p>
+      </div>
+    </footer>
+
+    <!-- ----linked main.js file---- -->
+    <script src="./public/js/main.js"></script>
+  </body>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+    const form = document.getElementById('order-form');
+    const thankYouMessage = document.getElementById('thank-you-message');
+
+    form.addEventListener('submit', function (event) {
+        event.preventDefault();
+
+        // Get form data
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        const password = document.getElementById('password').value;
+        const phone = document.getElementById('phone').value;
+        const address = document.getElementById('address').value;
+
+        // Create an object to store the form data
+        const orderData = {
+            name,
+            email,
+            password,
+            phone,
+            address
+        };
+
+        // Save the form data to local storage
+        localStorage.setItem('orderData', JSON.stringify(orderData));
+
+        // Show the thank you message
+        thankYouMessage.style.display = 'block';
+
+        // Optionally, clear the form fields
+        form.reset();
+    });
+});
+  </script>
+</html>
+
+<!-- happy coding!!!! -->
